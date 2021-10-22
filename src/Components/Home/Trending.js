@@ -23,7 +23,7 @@ function Trending({trendingMovies, trendingShows}) {
                 {trendingMovies.map(movie=>{
                     return (
                         <ImageListItem key={movie.id} sx={{mr:2}}>
-                            <Box component="img" maxWidth="250px" src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={movie.title} loading="lazy"/>
+                            <Box component="img" maxWidth="250px" src={`https://image.tmdb.org/t/p/w342${movie.poster_path}`} alt={movie.title} loading="lazy"/>
                             <ImageListItemBar title={movie.title}/>
                         </ImageListItem>
                     )
@@ -39,7 +39,7 @@ function Trending({trendingMovies, trendingShows}) {
             {trendingShows.map(show=>{
                     return (
                         <ImageListItem key={show.id} sx={{mr:2}}>
-                            <Box component="img" maxWidth="250px" src={`https://image.tmdb.org/t/p/w500${show.poster_path}`} alt={show.name} loading="lazy"/>
+                            <Box component="img" maxWidth="250px" src={`https://image.tmdb.org/t/p/w342${show.poster_path}`} alt={show.name} loading="lazy"/>
                             <ImageListItemBar title={show.name}/>
                         </ImageListItem>
                     )
