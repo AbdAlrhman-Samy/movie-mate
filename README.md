@@ -1,4 +1,5 @@
-#Movie Mate
-Discover trending movies and TV shows,
+# Movie Mate (WIP)
+---
+Discover trending movies and TV shows.
 
 [Available here](https://movie-mate.netlify.app/)
